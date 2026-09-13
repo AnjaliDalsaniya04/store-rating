@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables - never commit these
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Prisma generated client
+backend/generated/
